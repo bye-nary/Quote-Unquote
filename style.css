@@ -1,0 +1,26 @@
+body {
+    width: 300px;
+    font-family: Helvetica;
+    background: linear-gradient(to bottom right, white, #b2b2ff);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.share-buttons {
+    margin: 0 auto;
+    font-size: 2em;
+}
