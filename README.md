@@ -4,7 +4,7 @@ What it is:
 * A Chrome Extension.
 * Easy way to share websites you like.
 * Easy way to share paragraphs/snippets you like.
-* SUpports most social platforms.
+* Supports most social platforms.
 * Fun.
 
 What it is not:
@@ -20,7 +20,7 @@ To install and run this extension, follow the instructions below:
  * Click on the three dots menu at the top right corner of your screen, and goto ``` More Tools ``` and then choose ``` Extensions ```.
  * Check the ``` Developer Mode ``` option.
  * Click ```Load Unpacked Extension``` and choose the location of the downloaded Quote Unquote project.
- * You will see the extrnsion being loaded in your URL bar in a few seconds, a blue icon appears.
+ * You will see the extension being loaded in your URL bar in a few seconds, a blue icon appears.
  
  How to use:
  * Select any text on a website.
@@ -43,7 +43,7 @@ The URL of the website is added so as to attribute to the right owner.
 
 * [manifest.json](manifest.json)
 This is the first file that the browser reads. It contains all the meta data, and specifies the background scrits, content scripts, pop up details, action to be performed on browser/ pages.
-Find more details about the manifest file [here] (https://developer.chrome.com/apps/manifest).
+Find more details about the manifest file [here](https://developer.chrome.com/apps/manifest).
 
 * [popup.html](popup.html)
 If you see the ```manifest.json```, you will find the default pop-up as ```popup.html```. This is the default html that shows up when you click on the extension icon.
