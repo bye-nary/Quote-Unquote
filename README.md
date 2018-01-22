@@ -41,23 +41,23 @@ The URL of the website is added so as to attribute to the right owner.
 
 ## Understand the Basics
 
-* [manifest.json](https://github.com/bye-nary/Quote-Unquote/blob/master/manifest.json)
+* [manifest.json](manifest.json)
 This is the first file that the browser reads. It contains all the meta data, and specifies the background scrits, content scripts, pop up details, action to be performed on browser/ pages.
 Find more details about the manifest file [here] (https://developer.chrome.com/apps/manifest).
 
-* [popup.html](https://github.com/bye-nary/Quote-Unquote/blob/master/popup.html)
+* [popup.html](popup.html)
 If you see the ```manifest.json```, you will find the default pop-up as ```popup.html```. This is the default html that shows up when you click on the extension icon.
 
-* [style.css](https://github.com/bye-nary/Quote-Unquote/blob/master/style.css)
+* [style.css](style.css)
 It is the CSS that is applied to the ```popup.html```.
 
-* [popup.js](https://github.com/bye-nary/Quote-Unquote/blob/master/popup.js)
+* [popup.js](popup.js)
 This is the JS script that works on the html. It handles everything from extracting the selected text, extracting the tab url, fitting these into appropriate parameters, and linking these to a share web intent.
 
-* [Quote.png](https://github.com/bye-nary/Quote-Unquote/blob/master/Quote.png)
+* [Quote.png](Quote.png)
 The icon image. You can find it assigned in the ```manifest.json``` file.
 
-* [font-awesome.min.css](https://github.com/bye-nary/Quote-Unquote/blob/master/font-awesome.min.css)
+* [font-awesome.min.css](font-awesome.min.css)
 CSS file for the Platform Logos. Can be downloaded or used via CDN.
 
 You can read more about Building Chrome Extensions [here](https://developer.chrome.com/extensions).
@@ -73,6 +73,13 @@ You can read more about Building Chrome Extensions [here](https://developer.chro
 
 Because I'm too lazy to sign in on my other accounts and Twitter is the only place Open right now, the screenshots will only be from twitter. Will be updated gradually.
 
+Can be used to share an answer to a StackOverflow problem, or share a question.
+![1](screenshots/1.png)
+
+Can be used to share your favourite lines from a book.
+![2](screenshots/2.png)
+
+The possibilities to share what you love is limitless.
 
 ## Note from yours truly (gitignore if you want)
 
